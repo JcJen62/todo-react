@@ -10,7 +10,7 @@ function AddTodo() {
     }
 
     return(
-        <div>
+        <div id='addTodoDiv'>
             <input type='text' className="addTodoText" onChange={handleChange}></input>
             <button className="pageBtn" onClick={() =>context.add(newTodo)}>Submit Todo</button>
         </div>

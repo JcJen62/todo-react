@@ -6,7 +6,7 @@ function DisplayTodos() {
 
     return (
         <div id="todoContainer">
-            <h2>Todos:</h2>
+            <h2 id="subHead">Todos:</h2>
             <ul id="todoList">
                 {context.todos?.map((item) => {
                     return <TodoItem todo={item}/>
