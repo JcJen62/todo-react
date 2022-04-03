@@ -2,37 +2,59 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#todoContainer {
+  margin: 0 auto;
+  width: 960px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#todoList {
+  margin: 0 auto;
+  width: 300px;
+  list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#todoList li {
+  width: 100%;
+  margin: 0.5rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.pageBtn {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(105, 160, 187);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.todoBtn {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 0.5rem .75rem;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(105, 160, 187);
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todoBtn:hover {
+  background-color: rgb(90, 136, 159);
+}
+
+.pageBtn:hover {
+  background-color: rgb(90, 136, 159);
+}
+
+#addTodoText {
+  padding: 0.60rem 1rem;
+}
+
+#completeCheck {
+  width: 24px;
+  height: 24px;
+  margin-left: 0.5rem;
 }
