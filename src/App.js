@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <TodoContextProvider>
-        <h1 id='pageTitle'>Advanced Todo App React</h1>
+        <h1 id='pageTitle'>Your Todo App</h1>
         <AddTodo />
         <DisplayTodos />
       </TodoContextProvider>
